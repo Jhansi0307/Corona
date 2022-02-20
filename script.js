@@ -32,8 +32,8 @@ fetch('https://coronavirus.m.pipedream.net/')
                      <div class = " card-text a">  Lat: ${data.rawData[i].Lat}</div>
                      <div class =" card-text "> Country: ${data.rawData[i].Country_Region}</div>
                     <div class = " card-text a">  Deaths: ${data.rawData[i].Deaths}</div>
-                    <div class="card text-center" >${data.rawData[i].Confirmed}</div>
-                    <div class="card text-center" >${data.rawData[i].Combined_Key}</div>
+                    <div class="card text-center" >Confirmed cases:${data.rawData[i].Confirmed}</div>
+                    <div class="card text-center" > Combined key :${data.rawData[i].Combined_Key}</div>
                 
 
                     
